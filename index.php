@@ -22,8 +22,8 @@ $CreativeMusicList->CommonMethod();
     <meta property="og:type" content="website">
     <link rel="shortcut icon" href="<?=$CreativeHeader->favicon?>?v=<?=rand(1,999)?>" type="image/x-icon">
     <meta property="og:title" content="<?=$CreativeHeader->title?>">
-    <meta property="og:url" content="//thanhdieu.com">
-    <meta property="og:image" content="./res/v5/img/bg3.webp">
+    <meta property="og:url" content="https://vngctcreative.github.io/">
+    <meta property="og:image" content="./res/v5/img/background/anime-girl.png">
     <title><?=$CreativeHeader->title?></title>
     <!--/ @StyleSheets /-->
     <link rel="stylesheet" href="./res/v5/css/ws.theme.css">
@@ -35,20 +35,21 @@ $CreativeMusicList->CommonMethod();
     <link rel="stylesheet" href="./res/v5/libs/jbox@1.3.3/jBox.all.min.css">
     <!--/ @CDN /-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="//cdn.thanhdieu.com/dialog/wstoast/ws.toast.css?v=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./res/v5/css/ws.toast.css">
 </head>
 <body class="BodyStyle">
     <div class="td-lock-screen">
         <section class="td-welcome">
             <div class="medias">
                 <video class="item_video" autoplay loop muted playsinline>
-                    <source src="./res/v5/files/video/hutao.mp4" type="video/mp4">
+                    <source src="./res/v5/files/video/Immortalized Legend Ahri 4K.mp4" type="video/mp4">
                 </video>
                 <div class="date"></div>
             </div>
             <div class="infos">
                 <div class="logo-web-title">
-                    <img class="logo-ws" src="https://imgur.com/F3t8XCW.png" alt="Creative">
+                    <img class="logo-vngct" src="https://imgur.com/F3t8XCW.png" alt="Creative">
                     <span class="web-title">
                         <span class="td-lock"></span>𝗟𝗼𝗰𝗸 𝗦𝗰𝗿𝗲𝗲𝗻 - 𝑪𝒓𝒆𝒂𝒕𝒊𝒗𝒆<span class="td-lock"></span>
                     </span>
@@ -61,8 +62,7 @@ $CreativeMusicList->CommonMethod();
         </section>
     </div>
     <div class="pace pace-active">
-        <div class="pace-progress" data-progress-text="0%" data-progress="0"
-            style="transform: translate3d(0%, 0px, 0px);">
+        <div class="pace-progress" data-progress-text="0%" data-progress="0" style="transform: translate3d(0%, 0px, 0px);">
             <div class="pace-progress-inner"></div>
         </div>
     </div>
@@ -189,11 +189,11 @@ $CreativeMusicList->CommonMethod();
         <p>Adobe</p>
     </span>
     <span class="tag">
-        <img src="/res/v5/img/icons8-python.gif?h=96" alt="Python">
+        <img src="/res/v5/img/skill/icons8-python.gif?h=96" alt="Python">
         <p>Python</p>
     </span>
     <span class="tag">
-        <img src="/res/v5/img/coding.gif?h=96" alt="Php">
+        <img src="/res/v5/img/skill/coding.gif?h=96" alt="Php">
         <p>Php</p>
     </span>
 </div>
@@ -215,21 +215,21 @@ $CreativeMusicList->CommonMethod();
                     <div class="img-male">
                         <img src="<?=$CreativeLoveDays->ConfigLove['avatar_male'];?>"
                             alt="<?=$CreativeLoveDays->ConfigLove['name_male'];?>">
-                        <img class="crown-love" src="./res/v5/img/crown/khung-4.png">
+                        <!-- <img class="crown-love" src="./res/v5/img/crown/khung-4.png"> -->
                         <span><?=$CreativeLoveDays->ConfigLove['name_male'];?></span>
                     </div>
                     <div class="heart"></div>
                     <div class="img-female">
                         <img src="<?=$CreativeLoveDays->ConfigLove['avatar_female'];?>"
                             alt="<?=$CreativeLoveDays->ConfigLove['name_female'];?>">
-                        <img class="crown-love" src="./res/v5/img/crown/khung-4.png">
+                        <!-- <img class="crown-love" src="./res/v5/img/crown/khung-4.png"> -->
                         <span><?=$CreativeLoveDays->ConfigLove['name_female'];?></span>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <!--/ @Setting ThanhDieuV5 /-->
+    <!--/ @Setting Creative V4.0.1 /-->
     <ul class="nk-sticky-toolbar">
         <li class="demo-settings">
             <a class="toggle tipinfo" data-target="SettingPanel">
@@ -248,7 +248,7 @@ $CreativeMusicList->CommonMethod();
     </ul>
     <div class="nk-demo-panel toggle-slide toggle-slide-right toggle-screen-any content-active" id="SettingPanel" data-content="SettingPanel" data-toggle-overlay="true" data-toggle-body="true" data-toggle-screen="any">
         <div class="nk-demo-head">
-            <h6 class="mb-0">Ws Settings</h6>
+            <h6 class="mb-0">Website Setting</h6>
             <a class="nk-demo-close toggle btn btn-icon btn-trigger revarse mr-n2 active" data-target="SettingPanel" href="#">
                 <em class="icon ni ni-cross"></em>
             </a>
@@ -262,27 +262,75 @@ $CreativeMusicList->CommonMethod();
                                 <div class="nk-opt-set nk-opt-set-aside-apps change-bg">
                                     <div class="nk-opt-set-title">Nền BackGround</div>
                                     <div class="nk-opt-list col-4x">
-                                        <div class="nk-opt-item active" data-bg="./res/v5/img/bg.gif">
+                                        <div class="nk-opt-item active" data-bg="./res/v5/img/background/bg.gif">
                                             <span class="nk-opt-item-bg">
-                                                <img src="./res/v5/img/bg.gif">
+                                                <img src="./res/v5/img/background/bg.gif">
                                             </span>
                                             <span class="nk-opt-item-name">Default</span>
                                         </div>
-                                        <div class="nk-opt-item" data-bg="./res/v5/img/anime-wall.jpg">
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/julia-yurtsev-arcana-ahri.gif">
                                             <span class="nk-opt-item-bg">
-                                                <img src="./res/v5/img/anime-wall.jpg">
+                                                <img src="./res/v5/img/background/julia-yurtsev-arcana-ahri.gif">
+                                            </span>
+                                            <span class="nk-opt-item-name">Arcana Ahri</span>
+                                        </div>
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/universe.gif">
+                                            <span class="nk-opt-item-bg">
+                                                <img src="./res/v5/img/background/universe.gif">
+                                            </span>
+                                            <span class="nk-opt-item-name">Universe</span>
+                                        </div>
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/admiral-battle-bunny-miss-fortune.jpg">
+                                            <span class="nk-opt-item-bg">
+                                                <img src="./res/v5/img/background/admiral-battle-bunny-miss-fortune.jpg">
+                                            </span>
+                                            <span class="nk-opt-item-name">Miss Fortune</span>
+                                        </div>
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/terence-cantal-1.jpg">
+                                            <span class="nk-opt-item-bg">
+                                                <img src="./res/v5/img/background/terence-cantal-1.jpg">
+                                            </span>
+                                            <span class="nk-opt-item-name">Legend Ahri 1</span>
+                                        </div>
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/terence-cantal-2.jpg">
+                                            <span class="nk-opt-item-bg">
+                                                <img src="./res/v5/img/background/terence-cantal-2.jpg">
+                                            </span>
+                                            <span class="nk-opt-item-name">Legend Ahri 2</span>
+                                        </div>
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/porcelain-irelia.jpg">
+                                            <span class="nk-opt-item-bg">
+                                                <img src="./res/v5/img/background/porcelain-irelia.jpg">
+                                            </span>
+                                            <span class="nk-opt-item-name">Porcelain Irelia</span>
+                                        </div>
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/anime-wall.jpg">
+                                            <span class="nk-opt-item-bg">
+                                                <img src="./res/v5/img/background/anime-wall.jpg">
                                             </span>
                                             <span class="nk-opt-item-name">Anime</span>
                                         </div>
-                                        <div class="nk-opt-item" data-bg="./res/v5/img/bg.png">
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/anime-girl-cityscape-short-hair.jpg">
                                             <span class="nk-opt-item-bg">
-                                                <img src="./res/v5/img/bg.png">
+                                                <img src="./res/v5/img/background/anime-girl-cityscape-short-hair.jpg">
                                             </span>
-                                            <span class="nk-opt-item-name">BG</span>
+                                            <span class="nk-opt-item-name">Cityscape</span>
                                         </div>
-                                        <div class="nk-opt-item" data-bg="./res/v5/img/anime-girl.png">
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/anime-girl-with-glasses-flower.jpg">
                                             <span class="nk-opt-item-bg">
-                                                <img src="./res/v5/img/anime-girl.png">
+                                                <img src="./res/v5/img/background/anime-girl-with-glasses-flower.jpg">
+                                            </span>
+                                            <span class="nk-opt-item-name">Glasses Flower</span>
+                                        </div>
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/anime-girl-brunette-flowers.jpg">
+                                            <span class="nk-opt-item-bg">
+                                                <img src="./res/v5/img/background/anime-girl-brunette-flowers.jpg">
+                                            </span>
+                                            <span class="nk-opt-item-name">Brunette Flower</span>
+                                        </div>
+                                        <div class="nk-opt-item" data-bg="./res/v5/img/background/anime-girl.png">
+                                            <span class="nk-opt-item-bg">
+                                                <img src="./res/v5/img/background/anime-girl.png">
                                             </span>
                                             <span class="nk-opt-item-name">Vesecvey</span>
                                         </div>
@@ -290,7 +338,7 @@ $CreativeMusicList->CommonMethod();
                                 </div>
                             </div>
                             <div class="nk-opt-set">
-                                <div class="nk-opt-set-title">Danh Sách Nhạc</div>
+                                <div class="nk-opt-set-title">Album Nhạc Hay Nghe</div>
                                 <br />
                                 <div class="nk-opt-list">
                                     <ul class="music_menu_list">
@@ -314,6 +362,10 @@ $CreativeMusicList->CommonMethod();
                                         <?php endforeach; ?>
                                     </ul>
                                 </div>
+                                <br />
+                                <!-- <div id="music-controls">
+                                        <button id="play-pause"><i class="fa fa-play"></i></button>
+                                </div> -->
                             </div>
                                 <div class="nk-opt-set">
                                     <div class="nk-opt-set-title">Hiệu Ứng Effect</div>
@@ -394,7 +446,7 @@ $CreativeMusicList->CommonMethod();
     </span>
     <footer id="footer">
         <span>
-            <a href="//thanhdieu.com" target="_blank">&copy; Copyright&nbsp;Creative 2024</a>
+            <a href="https://vngctcreative.github.io/" target="_blank">&copy; Copyright&nbsp;Creative 2024</a>
         </span>
     </footer>
     <div class="time-now" id="real-time">00:00:00</div>
@@ -410,7 +462,7 @@ $CreativeMusicList->CommonMethod();
     <script src="./res/v5/js/index.js?v=<?php echo rand(1,999)?>">
     </script>
     <!--/ @CDN /-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="./res/v5/js/typed.min.js"></script>
     <script src="//cdn.thanhdieu.com/dialog/wstoast/ws.toast.js"></script>
     <!-- <?php require_once './res/function/fuck-devtools.php'; ?> -->
 </body>
