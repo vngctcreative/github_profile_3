@@ -4,7 +4,7 @@ Code này hiển thị profile về bản thân
 
 ## Mục lục
 
-- [Giới thiệu](#profile-github-creative-v40)
+- [Giới thiệu](#profile-github-creative-v41)
 - [Cài đặt](#cài-đặt)
 - [Sử dụng](#sử-dụng)
 - [Preview Image](#preview-image)
