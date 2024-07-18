@@ -43,7 +43,9 @@ $CreativeMusicList->CommonMethod();
         <section class="td-welcome">
             <div class="medias">
                 <video class="item_video" autoplay loop muted playsinline>
-                    <source src="./res/v5/files/video/Immortalized Legend Ahri 4K.mp4" type="video/mp4">
+                    <source src="https://files.catbox.moe/d5k6ta.mp4" type="video/mp4"> <!--for Immortalized Legend Ahri -->
+                    <!-- <source src="https://files.catbox.moe/5svqp7.mp4" type="video/mp4"> --> <!--for hutao -->
+                    <!-- <source src="https://files.catbox.moe/1uwaer.webm" type="video/mp4"> --> <!--for Anime Steam Profile -->
                 </video>
                 <div class="date"></div>
             </div>
@@ -110,7 +112,7 @@ $CreativeMusicList->CommonMethod();
         </nav>
         <header id="header">
             <h2>
-                <a href="#" class="site-icon"><?=$CreativeHeader->namesite?></a>
+                <a href="https://vngctcreative.github.io/" class="site-icon"><?=$CreativeHeader->namesite?></a>
             </h2>
             <div class="site-buttons">
                 <button class="site-button mode-loveday">
