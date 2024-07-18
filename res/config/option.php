@@ -11,7 +11,7 @@ class CreativeHeader implements CreativeConfigInterface {
     public $description = "Hi my name is Creative / A freelance / web developer / vexer";
     public $keywords = "thanhdieu,web thanh dieu,vuong thanh dieu,thanhdieutv,wsteam,wusteam,thanhdieu home,profile thanhdieu";
     public $favicon = "./res/v5/img/avatar/logo.jpg";
-    public $namesite = "Creative | HOME";
+    public $namesite = "Click to come my Repo Github";
     public $avatar = "./res/v5/img/avatar/orange_cat.gif";
     public $userName = ["Hello Everyone !!!", "My name is Creative.", "I love coding and programming on free time"];
     public $trigger = "👉 Tìm hiểu tôi 😶&zwj;🌫️";
@@ -24,10 +24,10 @@ class CreativeHeader implements CreativeConfigInterface {
     public $SocialNetworks = [
         "facebook" => "https://facebook.com/nhd31082003", // Thay link facebook
         "instagram" => "https://www.instagram.com/creative1896", // Thay link instagram
+        "github" => "https://github.com/vngctcreative", // Thay link github
         // "tiktok" => "https://www.tiktok.com/", // Thay link tiktok
         // "telegram" => "https://t.me/" // Thay link telegram
         // "twitter" => "https://twitter.com/Creative_NHD", // Thay link twitter
-        "github" => "https://github.com/vngctcreative" // Thay link github
     ];
     public function CommonMethod(){date_default_timezone_set('Asia/Ho_Chi_Minh');}
 }
