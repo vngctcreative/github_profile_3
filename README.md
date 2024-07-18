@@ -38,5 +38,5 @@ Hướng dẫn cách sử dụng mã và các tệp trong kho lưu trữ này:
   <img src="https://i.imgur.com/oSo8b5V.png" width="45%">
   <img src="https://i.imgur.com/6ZmK0nt.jpeg" width="45%">
   <img src="https://i.imgur.com/OCuuGx8.jpeg" width="45%">
-  <img src="https://i.imgur.com/LmYQewh.jpeg" width="45%">
+  <img src="https://imgur.com/EAVfsyb.png" width="45%">
 </p>
